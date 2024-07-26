@@ -53,7 +53,7 @@ const GenerateTokenPage = () => {
             type="text"
             value={name}
             onChange={(e) => setName(e.target.value)}
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm"
+            className="mt-1 block w-full md:w-1/2 px-3 py-2 border border-gray-300 rounded-md shadow-sm"
             style={{ color: 'black' }}
             required
           />
@@ -67,7 +67,7 @@ const GenerateTokenPage = () => {
             type="number"
             value={age}
             onChange={(e) => setAge(e.target.value)}
-            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm"
+            className="mt-1 block w-full md:w-1/2 px-3 py-2 border border-gray-300 rounded-md shadow-sm"
             style={{ color: 'black' }}
             required
           />
